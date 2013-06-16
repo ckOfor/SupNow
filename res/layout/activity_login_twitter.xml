@@ -1,0 +1,104 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GridLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/new_pic"
+    android:columnCount="4"
+    android:orientation="horizontal" >
+
+    <!-- Twitter Login Button -->
+
+
+    <!-- user name label -->
+
+    <TextView
+        android:id="@+id/lblUserName"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginTop="30dip"
+        android:layout_row="1"
+        android:padding="10dip" />
+
+    <!-- label update status -->
+
+    <TextView
+        android:id="@+id/lblUpdate"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_row="0"
+        android:text="Update Status"
+        android:visibility="gone" />
+
+    <!-- Tweet EditText -->
+
+    <EditText
+        android:id="@+id/txtUpdateStatus"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:layout_margin="10dip"
+        android:layout_row="0"
+        android:visibility="gone" />
+
+    <!-- Tweet Button -->
+
+    <Button
+        android:id="@+id/btnUpdateStatus"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_row="0"
+        android:text="Tweet"
+        android:visibility="gone" />
+
+    <!-- Twitter Logout button -->
+
+    <Button
+        android:id="@+id/btnLogoutTwitter"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="50dip"
+        android:layout_row="0"
+        android:text="Logout from Twitter"
+        android:visibility="gone" />
+
+    <Space
+        android:layout_column="3"
+        android:layout_gravity="fill_vertical"
+        android:layout_row="2" />
+
+    <Button
+        android:id="@+id/btnLoginTwitter"
+        android:layout_width="157dp"
+        android:layout_column="3"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="20dp"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="30dip"
+        android:layout_row="2"
+        android:background="#9ae4e8"
+        android:text="Login with Twitter"
+        android:textColorHint="#9ae4e8" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="157dp"
+        android:layout_column="3"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="80dp"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="30dip"
+        android:layout_row="2"
+        android:background="#aaaaaa"
+        android:text="Login as Guest"
+        android:textColorHint="#9ae4e8" />
+
+</GridLayout>
