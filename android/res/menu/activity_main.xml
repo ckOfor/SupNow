@@ -1,0 +1,27 @@
+<!-- 
+    [ADMMessenger]
+
+    (c) 2012, Amazon.com, Inc. or its affiliates. All Rights Reserved.
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_events"
+        android:title="Events"
+        android:orderInCategory="100"
+        android:showAsAction="always" />
+     <item android:id="@+id/menu_notifications"
+        android:title="Notifications"
+        android:orderInCategory="100"
+        android:showAsAction="always" />
+     <item android:id="@+id/menu_login"
+        android:title="\@ronanjbrennan"
+        android:orderInCategory="100"
+        android:showAsAction="always" />
+    <item android:id="@+id/menu_register"
+        android:title="Register Device"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/menu_unregister"
+        android:title="Unregister Device"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>
